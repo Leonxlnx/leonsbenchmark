@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Leon's personal prompt benchmarks for testing new AI model releases."
+    />
+    <meta name="theme-color" content="#f4f1ea" />
+    <title>Leon's Benchmarks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#benchmarks">Skip to benchmarks</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label="Leon's Benchmarks home">
+        <span class="wordmark-mark" aria-hidden="true">LB</span>
+        <span>Leon's Benchmarks</span>
+      </a>
+      <p class="release-count">01 prompt · updated as models ship</p>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <p class="index" aria-hidden="true">001—</p>
+        <div>
+          <h1 id="page-title">Prompts for testing what new AI models can <em>actually</em> build.</h1>
+          <p class="intro-copy">
+            A small, opinionated collection of personal benchmarks. Same brief, different model,
+            visible result.
+          </p>
+        </div>
+      </section>
+
+      <section class="collection" id="benchmarks" aria-labelledby="collection-title">
+        <div class="section-heading">
+          <h2 id="collection-title">The collection</h2>
+          <span>1 / 1</span>
+        </div>
+
+        <article class="benchmark-card">
+          <div class="benchmark-number" aria-hidden="true">01</div>
+          <div class="benchmark-content">
+            <div class="benchmark-meta">
+              <span>Web design</span>
+              <span>3D experience</span>
+              <span>Agent benchmark</span>
+            </div>
+            <h3>Premium Real Estate<br />3D Website</h3>
+            <p class="benchmark-summary">
+              A demanding creative-agent brief for an architectural, scroll-directed 3D property
+              experience—with real assets, spatial typography, and production constraints.
+            </p>
+
+            <div class="actions" aria-label="Prompt actions">
+              <button class="action action-primary" type="button" data-copy-prompt>
+                <span data-copy-label>Copy prompt</span>
+                <span aria-hidden="true">↗</span>
+              </button>
+              <a
+                class="action"
+                href="prompts/premium-real-estate-3d-agent-prompt-v2.md"
+                download
+              >
+                <span>Download .md</span>
+                <span aria-hidden="true">↓</span>
+              </a>
+            </div>
+            <p class="copy-status" data-copy-status role="status" aria-live="polite"></p>
+          </div>
+
+          <a
+            class="result-link"
+            href="https://kimik3realestatebenchmark.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>
+              <span class="result-kicker">First result</span>
+              <strong>Kimi K3</strong>
+            </span>
+            <span class="result-arrow" aria-hidden="true">↗</span>
+          </a>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built to compare the work, not the hype.</p>
+      <p>More prompts as new models arrive.</p>
+    </footer>
+  </body>
+</html>
