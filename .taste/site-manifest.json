@@ -1,0 +1,78 @@
+{
+  "mode": "standard",
+  "projectType": "Personal benchmark prompt library",
+  "framework": "Static HTML, CSS, and JavaScript",
+  "brief": {
+    "goal": "Publish reusable AI model benchmark prompts with direct access to real model results.",
+    "audience": "AI builders comparing new model releases against the same creative brief.",
+    "primaryAction": "Read, copy, or download the benchmark prompt, then inspect the Kimi K3 result.",
+    "visualTension": "Editorial restraint paired with one high-signal orange action and a stark result panel."
+  },
+  "brand": {
+    "tokensPath": "styles.css",
+    "fonts": ["Instrument Serif", "Manrope", "DM Mono"],
+    "direction": "Quiet editorial field notes: warm paper, black ink, precise typography, and one orange signal color."
+  },
+  "assetStrategy": {
+    "mode": "visual",
+    "typeOnlyReason": ""
+  },
+  "tasteBlocks": {
+    "available": true,
+    "attempted": ["magic-ripple-button — rejected because decorative ripple feedback conflicts with the deliberately quiet utility interface"],
+    "outageReason": ""
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "job": "State what the benchmark library is and why it exists.",
+      "layout": "Large left-aligned editorial headline with a short supporting paragraph.",
+      "mobileChange": "Headline reflows to a compact three-line composition.",
+      "visualCarrier": "Typography and whitespace.",
+      "componentRole": "Semantic heading and supporting copy only.",
+      "motionRole": "Static orientation; no entrance animation."
+    },
+    {
+      "id": "benchmark",
+      "job": "Expose the prompt and connect it to the Kimi K3 result and X post.",
+      "layout": "Prompt content and actions beside a dark result panel.",
+      "mobileChange": "Result panel stacks below the prompt and actions become full width.",
+      "visualCarrier": "Real prompt text, native controls, and contrasting result surface.",
+      "componentRole": "Native expandable prompt preview, copy button, download link, and result links.",
+      "motionRole": "Only brief color feedback on pointer interactions."
+    },
+    {
+      "id": "footer",
+      "job": "Close with the collection's point of view and update expectation.",
+      "layout": "Two short statements separated across the page edge.",
+      "mobileChange": "Statements stack vertically.",
+      "visualCarrier": "Small plain-language closing copy.",
+      "componentRole": "Semantic footer text only.",
+      "motionRole": "None."
+    }
+  ],
+  "components": [],
+  "assets": [
+    {
+      "path": "assets/og-image.png",
+      "role": "1200 by 630 Open Graph social preview",
+      "source": "Project-authored typographic artwork rendered from assets/og-image.svg"
+    },
+    {
+      "path": "assets/og-image.svg",
+      "role": "Editable source for the Open Graph image",
+      "source": "Project-authored SVG"
+    }
+  ],
+  "motion": [],
+  "qa": {
+    "buildPassed": true,
+    "consoleClean": true,
+    "responsivePassed": true,
+    "reducedMotionPassed": true,
+    "desktopScreenshot": ".taste/qa-desktop.png",
+    "mobileScreenshot": ".taste/qa-mobile.png",
+    "componentProof": ".taste/component-proof.json",
+    "motionProof": ".taste/motion-proof.json"
+  }
+}

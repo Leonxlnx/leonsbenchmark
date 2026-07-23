@@ -7,6 +7,20 @@
       name="description"
       content="Leon's personal prompt benchmarks for testing new AI model releases."
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Leon's Benchmarks" />
+    <meta
+      property="og:description"
+      content="Personal prompts for testing what new AI models can actually build."
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/Leonxlnx/leonsbenchmark/main/assets/og-image.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Leon's Benchmarks — same prompt, different model, visible result." />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#f4f1ea" />
     <title>Leon's Benchmarks</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,40 +40,38 @@
         <span class="wordmark-mark" aria-hidden="true">LB</span>
         <span>Leon's Benchmarks</span>
       </a>
-      <p class="release-count">01 prompt · updated as models ship</p>
     </header>
 
     <main>
       <section class="intro" aria-labelledby="page-title">
-        <p class="index" aria-hidden="true">001—</p>
-        <div>
-          <h1 id="page-title">Prompts for testing what new AI models can <em>actually</em> build.</h1>
-          <p class="intro-copy">
-            A small, opinionated collection of personal benchmarks. Same brief, different model,
-            visible result.
-          </p>
-        </div>
+        <h1 id="page-title">Prompts for testing what new AI models can <em>actually</em> build.</h1>
+        <p class="intro-copy">
+          A small, opinionated collection of personal benchmarks. Same brief, different model,
+          visible result.
+        </p>
       </section>
 
-      <section class="collection" id="benchmarks" aria-labelledby="collection-title">
-        <div class="section-heading">
-          <h2 id="collection-title">The collection</h2>
-          <span>1 / 1</span>
-        </div>
-
+      <section class="collection" id="benchmarks" aria-label="Benchmark collection">
         <article class="benchmark-card">
-          <div class="benchmark-number" aria-hidden="true">01</div>
           <div class="benchmark-content">
-            <div class="benchmark-meta">
-              <span>Web design</span>
-              <span>3D experience</span>
-              <span>Agent benchmark</span>
-            </div>
             <h3>Premium Real Estate<br />3D Website</h3>
             <p class="benchmark-summary">
               A demanding creative-agent brief for an architectural, scroll-directed 3D property
               experience—with real assets, spatial typography, and production constraints.
             </p>
+
+            <div class="prompt-preview" data-prompt-preview-container>
+              <pre data-prompt-preview aria-label="Prompt preview">Loading prompt…</pre>
+              <button
+                class="prompt-toggle"
+                type="button"
+                data-prompt-toggle
+                aria-expanded="false"
+              >
+                <span data-prompt-toggle-label>Show full prompt</span>
+                <span data-prompt-toggle-icon aria-hidden="true">↓</span>
+              </button>
+            </div>
 
             <div class="actions" aria-label="Prompt actions">
               <button class="action action-primary" type="button" data-copy-prompt>
@@ -78,18 +90,27 @@
             <p class="copy-status" data-copy-status role="status" aria-live="polite"></p>
           </div>
 
-          <a
-            class="result-link"
-            href="https://kimik3realestatebenchmark.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>
-              <span class="result-kicker">First result</span>
-              <strong>Kimi K3</strong>
-            </span>
-            <span class="result-arrow" aria-hidden="true">↗</span>
-          </a>
+          <div class="result-panel">
+            <h4>Kimi K3</h4>
+            <a
+              class="result-action"
+              href="https://kimik3realestatebenchmark.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Open result</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="result-action"
+              href="https://x.com/LexnLin/status/2080080211178115074?s=20"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>View X post</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </article>
       </section>
     </main>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4f1ea"/>
+  <rect x="56" y="56" width="64" height="64" fill="#151515"/>
+  <text x="88" y="97" fill="#f4f1ea" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">LB</text>
+  <text x="148" y="98" fill="#151515" font-family="Arial, sans-serif" font-size="24" font-weight="700">Leon's Benchmarks</text>
+  <line x1="56" y1="152" x2="1144" y2="152" stroke="#cbc6bc" stroke-width="2"/>
+  <text x="56" y="296" fill="#151515" font-family="Georgia, serif" font-size="82" letter-spacing="-3">Same prompt.</text>
+  <text x="56" y="385" fill="#151515" font-family="Georgia, serif" font-size="82" font-style="italic" letter-spacing="-3">Different model.</text>
+  <text x="56" y="474" fill="#ff5c35" font-family="Georgia, serif" font-size="82" letter-spacing="-3">Visible result.</text>
+  <text x="56" y="565" fill="#6f6b63" font-family="Arial, sans-serif" font-size="22">Personal benchmarks for new AI model releases.</text>
+</svg>
