@@ -5,7 +5,7 @@
   "brief": {
     "goal": "Publish reusable AI model benchmark prompts with direct access to real model results.",
     "audience": "AI builders comparing new model releases against the same creative brief.",
-    "primaryAction": "Read, copy, or download the benchmark prompt, then inspect the Kimi K3 result.",
+    "primaryAction": "Read, copy, or download the benchmark prompt, then compare the Kimi K3 and GPT-5.6 Sol results.",
     "visualTension": "Editorial restraint paired with one high-signal orange action and a stark result panel."
   },
   "brand": {
@@ -34,9 +34,9 @@
     },
     {
       "id": "benchmark",
-      "job": "Expose the prompt and connect it to the Kimi K3 result and X post.",
-      "layout": "Prompt content and actions beside a dark result panel.",
-      "mobileChange": "Result panel stacks below the prompt and actions become full width.",
+      "job": "Expose the prompt and connect it to the Kimi K3 and GPT-5.6 Sol results and X posts.",
+      "layout": "Prompt content and actions beside two stacked dark result panels.",
+      "mobileChange": "Result panels stack below the prompt and actions become full width.",
       "visualCarrier": "Real prompt text, native controls, and contrasting result surface.",
       "componentRole": "Native expandable prompt preview, copy button, download link, and result links.",
       "motionRole": "Only brief color feedback on pointer interactions."
