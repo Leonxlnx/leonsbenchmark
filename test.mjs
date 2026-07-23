@@ -9,6 +9,7 @@ const [page, prompt] = await Promise.all([
 assert.match(page, /kimik3realestatebenchmark\.vercel\.app/);
 assert.match(page, /x\.com\/LexnLin\/status\/2080080211178115074/);
 assert.match(page, /assets\/og-image\.png/);
+assert.match(page, /\/_vercel\/insights\/script\.js/);
 assert.match(page, /data-copy-prompt/);
 assert.match(page, /data-prompt-toggle/);
 assert.doesNotMatch(page, /updated as models ship|benchmark-number|release-count/);
